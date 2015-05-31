@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+#container{
+	width:1003px;
+	margin:0 auto;
+	background:#85FFD3
+}
+
+#title{
+	height:100px;
+	background:#233333;
+	font-size: 50px;
+	color:#85FFD3;
+	text-align:center;
+}
+
+#menu{
+	height:30px;
+	border-bottom-color:#000000;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+#menu ul{
+	list-style-type:none;
+}
+
+#menu li{
+	float:left;
+	text-align:center;
+	margin-left:50px;
+}
+
+#menu a{
+	color:red;
+}
+
+#menu a:hover{
+	color:blue;
+}
+
+#content{
+	margin-top:20px;
+	height: 800px;
+}
+
+#content-left{
+	margin-left:20px;
+	float:left;
+}
+
+#content-right{
+	width:400px;
+	height:1000px;
+	background:#FFFFFF;
+	margin-right:100px;
+	float:right;
+}
+
+#content-lefttop{
+	height:400px;
+	width:400px;
+	background:#FFFFFF;
+}
+
+#content-leftbottom{
+	height:100px;
+	width:400px;
+	background:#FFFFFF;
+	margin-top:20px;
+}
